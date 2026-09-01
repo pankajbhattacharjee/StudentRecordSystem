@@ -80,6 +80,20 @@ StudentRecordSystem/
 └── .gitignore
 ```
 
+## Azure DevOps / CI Setup
+
+This repository also includes a simple Azure DevOps pipeline configuration in [azure-pipelines.yml](azure-pipelines.yml).
+
+### What it does
+- Restores NuGet packages
+- Builds the console project
+- Builds the ASP.NET Core API project
+
+### Why this is useful
+This demonstrates basic CI automation for a .NET project and helps prepare for interviews where teams ask about version control, build validation, and DevOps practices.
+
+> This project is still a personal learning project with in-memory data and local execution. It is not claiming production hosting or Azure deployment unless those steps are added separately.
+
 ## Learning Goal
 
 This repository is meant to show a clean progression from a beginner-friendly console app to a simple ASP.NET Core API, making it easier to explain in interviews and practice real backend skills with C# and ASP.NET Core.
